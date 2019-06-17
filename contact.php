@@ -1,7 +1,7 @@
 <?php
-$field_name = $_POST['cf_name'];
-$field_email = $_POST['cf_email'];
-$field_message = $_POST['cf_message'];
+$field_name = $_POST['name'];
+$field_email = $_POST['email'];
+$field_message = $_POST['message'];
 
 $mail_to = 'tmc242@rutgers.edu';
 $subject = 'Message from a site visitor '.$field_name;
