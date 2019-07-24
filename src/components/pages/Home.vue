@@ -60,6 +60,13 @@
       </div>
     </router-link>
 
+    <div class="photo">
+      <a href="https://matchatiff.github.io/Music-Visualizer/"><img src="@/assets/images/mv-cover.png">
+      <div class="overlay"></div>
+      <div class="text">Music Visualizer</div>
+      </a>
+    </div>
+
   </div>
 </template>
 
@@ -123,6 +130,12 @@ export default {
 }
 
 .photo > img {
+  object-fit: cover;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.photo > a > img {
   object-fit: cover;
   width: 100%;
   transition: 0.3s;
